@@ -1,4 +1,5 @@
 package Searching_Sorting;
+import java.util.*;
 
 public class allocate_min_no_of_pages {
     public static void main(String[] args) {
@@ -26,6 +27,8 @@ public class allocate_min_no_of_pages {
             }
         }
         return ans;
+
+
     }
 
     private static boolean isPossible(int[] a, int n, int m, int curMin) {

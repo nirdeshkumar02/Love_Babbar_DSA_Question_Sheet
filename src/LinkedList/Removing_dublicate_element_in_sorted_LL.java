@@ -17,7 +17,7 @@ public class Removing_dublicate_element_in_sorted_LL {
 
     private static Node RemovingElementIterative(Node head) {
         if(head==null){
-            return head;
+            return null;
         }
         Node curr=head;
         while(curr!=null && curr.next!=null){

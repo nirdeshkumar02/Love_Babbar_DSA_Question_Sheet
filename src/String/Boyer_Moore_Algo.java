@@ -1,4 +1,5 @@
 package String;
+import java.util.*;
 /*
 Boyer Moore is a combination of the following two approaches.
 1) Bad Character Heuristic

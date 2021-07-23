@@ -39,7 +39,6 @@ public class DFS_INORDER_Traversal {
 
     private static void InorderRecursive(Node root) {
         if(root == null) return;
-
         InorderRecursive(root.left);
         System.out.print(root.data+" ");
         InorderRecursive(root.right);
